@@ -5,12 +5,13 @@ def main():
         if divisibleByThree != 0 and divisibleByFive != 0:
             print(i)
             continue
-        outputString = ""
+        output = ""
         if divisibleByThree == 0:
-            outputString += "Fizz "
+            output += "Fizz "
         if divisibleByFive == 0:
-            outputString += "Buzz"
-        print(outputString)
+            output += "Buzz"
+        print(output)
+
 
 if __name__ == '__main__':
     main()
